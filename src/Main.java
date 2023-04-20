@@ -36,5 +36,7 @@ public class Main {
         }
 
         System.out.println("Our collection after deleted by value: " + ages);
+
+        scanner.close(); //очищаем ресурсы
     }
 }
